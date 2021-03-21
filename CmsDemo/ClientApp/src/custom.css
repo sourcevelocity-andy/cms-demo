@@ -1,0 +1,211 @@
+/* Provide sufficient contrast against white background */
+a {
+	color: #0366d6;
+}
+
+code {
+	color: #E01A76;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #1b6ec2;
+	border-color: #1861ac;
+}
+
+.soft {
+	color: #808080;
+}
+
+.login-background {
+	padding-top: 70px !important;
+	border-radius: 15px;
+	min-height: 250px;
+
+	/*background: #fff;
+	background-image: url("/images/mountain-3.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+}
+
+.contact-card {
+	color: #555;
+	background: #fff;
+}
+
+	.contact-card .label {
+		color: #202020;
+	}
+
+.contact-header {
+	border: 1px solid #808080;
+	/*border-radius: 5px;*/
+	padding: 5px 10px;
+	margin-top: 15px;
+}
+
+	.contact-header.contact-expanded {
+		/*border-radius: 5px 5px 0 0;*/
+		border-bottom: none;
+		background: #eeeeee;
+	}
+
+	.contact-header:hover {
+		background: #eeeeee;
+		cursor: pointer;
+	}
+
+.contact-body {
+	border: 1px solid #808080;
+	border-top: none;
+	/*border-radius: 0 0 5px 5px;*/
+	padding: 5px 10px 5px 10px;
+}
+
+.edit-button {
+	border: 1px solid #1b6ec2;
+	color: #1b6ec2 !important;
+	padding: 0 4px;
+	border-radius: 5px;
+	margin-top: -1px;
+	margin-right: -5px;
+	margin-left: 5px;
+	background: #fff;
+	outline: 0 !important;
+}
+
+	.edit-button:hover {
+		color: #fff !important;
+		background-color: #1b6ec2;
+	}
+
+.title {
+	color: #444;
+	font-size: 32px;
+	font-family: serif;
+	text-shadow: 0 0 5px #aaa;
+}
+
+/*.create {
+	cursor: pointer;
+	color: #fff !important;
+	border: 1px solid #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #fff;
+}
+*/
+
+.create {
+	cursor: pointer;
+	color: #555;
+	border: 1px solid #555;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #fff;
+}
+
+.moved-down {
+	margin-top: 30px;
+}
+
+.main-border {
+	border: 1px solid #777;
+	background-image: url("/images/mountain-3.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*background-image: linear-gradient(to right, #eef, #dde);*/
+/*	background: #eef;*/
+	margin-bottom: 30px;
+}
+
+.topBar button {
+	margin-right: 5px;
+	cursor: pointer;
+	color: #555;
+	border: 1px solid #555;
+	text-decoration: none;
+	border-top: none;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 0 5px #777;
+	margin-top: 20px;
+	background-color: #fff;
+	margin-top: 0;
+	padding-top: 0;
+	user-select: none;
+	outline: none;
+}
+
+.inner-app {
+	margin: 0 10px;
+	min-height: 300px;
+}
+
+div.topBar {
+	margin-top: 0;
+}
+
+.delete-button {
+	color: #dc3545 !important;
+	border-color: #dc3545 !important;
+}
+
+.favorite {
+	color: #ffd500 !important;
+}
+
+.clickable {
+	cursor: pointer;
+	user-select: none;
+}
+
+.group-selector > button {
+	color: #555 !important;
+	border: 1px solid #555 !important;
+	text-decoration: none !important;
+	padding: 5px 10px !important;
+	box-shadow: 0 0 5px #777 !important;
+	background: #fff !important;
+}
+
+.keep-spacing {
+	white-space: pre;
+}
+
+.footer {
+	margin-top: 30px;
+	border-top: 1px solid #ddd;
+	/*border-radius: 5px;*/
+	padding: 5px 10px;
+	font-size: 11px;
+	background: #f8f8f8;
+	color: #aaa;
+}
+
+.footer hr {
+	margin-bottom: 0;
+	color: #aaa;
+	padding-bottom: 0;
+}
+
+.dropdown-menu {
+	margin-top: 0;
+	border-top-right-radius: 0;
+	background: #fff;
+	box-shadow: 0 0 5px #777 !important;
+	padding: 0;
+}
+
+.dropdown-item {
+	font-size: 12px !important;
+}
+
+.dropdown-item:hover {
+	background: #ddd;
+	outline: none;
+}
+
