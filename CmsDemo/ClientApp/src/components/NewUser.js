@@ -1,5 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Alert, FormGroup, Label, Input, Form } from 'reactstrap';
+import Auth from '../Auth';
+
 //{ onCreate = null, contact = null }
 export const NewUser = (props) => {
 
@@ -52,8 +54,12 @@ export const NewUser = (props) => {
 		});
 
 		if (response.ok) {
-			setModal(false);
 			var data = await response.json();
+
+			Auth.set(data.loginId);
+
+			setModal(false);
+
 			props.onLogin(data);
 		}
 		else {
