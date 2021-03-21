@@ -41,3 +41,12 @@ This can be access by opening the project in Visual Studio, right-clicking the p
 
 At this point the application should run without any problems.
 
+## Future
+
+In the future, here are some improvements that could be made:
+
+1. More unit tests
+2. Code cleanup
+3. Reduce javascript library dependencies
+4. New features
+
