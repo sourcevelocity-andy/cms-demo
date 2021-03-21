@@ -65,7 +65,7 @@ namespace CmsDemo.Controllers
 				return Error.BadRequest("Password must contain a number");
 			}
 
-			if (!request.Password.Any(c => char.IsSymbol(c)))
+			if (!request.Password.Any(c => !char.IsNumber(c) & !char.IsLetter(c)))
 			{
 				return Error.BadRequest("Password must contain a symbol");
 			}
