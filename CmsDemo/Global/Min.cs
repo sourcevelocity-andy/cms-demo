@@ -2,6 +2,6 @@
 {
 	public static class Min
 	{
-		public const int Password = 4;
+		public const int Password = 6;
 	}
 }
